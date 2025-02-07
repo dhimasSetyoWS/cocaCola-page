@@ -1,0 +1,41 @@
+@import url("https://fonts.cdnfonts.com/css/loki-cola");
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-brand {
+  font-family: "Loki Cola", sans-serif;
+  font-family: "CocaCola", sans-serif;
+}
+
+.background-color-btn {
+  background-color: #1a1a1d;
+  color: #eeeeee;
+}
+
+.background-color-btn:hover {
+  color: #eeeeee;
+}
+
+.background-color-section {
+  background-color: #dee7f1;
+}
+.btn:hover {
+  background-color: #e61d2a !important;
+}
+
+.navbar-nav * {
+  color: #eeeeee;
+}
+
+.scrolls {
+  width: 100%;
+  height: 1000px;
+  background-image: url(./img/cokes4.jpg);
+  background-size: cover;
+}
+
+.scrolls .scrolls-child > * {
+  color: whitesmoke;
+}
